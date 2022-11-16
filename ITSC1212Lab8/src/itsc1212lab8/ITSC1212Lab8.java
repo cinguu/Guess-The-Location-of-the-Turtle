@@ -28,6 +28,8 @@ public class ITSC1212Lab8 {
          System.out.println(randomY);
          
     //set user's guess
+        System.out.println("Hello! Welcome to guess where the turtle is!\nYou will be prompt to enter x,y coordinates of where you think the turtle might be!\nDon't worry will give you hints along the way!");
+
         System.out.print("Enter a guess for the X position of tom: ");
         int guessX = scnr.nextInt();
         System.out.print("Enter a guess for the Y position of tom: ");
